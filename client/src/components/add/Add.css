@@ -1,0 +1,64 @@
+
+.add-container {
+  color: #444;
+  margin: 1em 0;
+  padding: 1em 0;
+  background-color: #DDD;
+  border-radius: 10px;
+}
+
+.add-container .form-item {
+  list-style-type: none;
+  padding: 1em 0 0;
+  margin: 0.2em;
+}
+
+.add-container h3 {
+  margin: 0;
+}
+
+.form-item label {
+  padding: 1em;
+}
+
+.form-item input {
+  padding: 1em;
+  border-radius: 0.25em;
+  border: 0;
+}
+
+.add-container button {
+  background: none;
+  color: #DDD;
+  cursor: pointer;
+  font: inherit;
+  overflow: visible;
+  padding: 0;
+  user-select: none;
+
+  background-color: #444;
+  border: 0;
+  border-radius: 0.25em;
+  height: 2.5em;
+  line-height: 2.5;
+  margin: 0.25em;
+  padding: 0 1em;
+  min-width: 120px;
+}
+
+.add-container .random {
+  background-color: #CCC;
+  color: #333;
+  width: 100%;
+  font: 0.6em;
+  height: 1.2em;
+  line-height: 1;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none
+}

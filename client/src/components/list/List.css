@@ -1,0 +1,11 @@
+.list-container li {
+  list-style-type: none;
+  background-color: #DDD;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 0.2em;
+  width: 40%;
+  min-width: 120px;
+  color: #EEE;
+  cursor: pointer;
+}

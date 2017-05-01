@@ -1,0 +1,33 @@
+{
+  "name": "js-react-redux-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "scripts": {
+    "server": "nodemon server/index.js --harmony",
+    "start": "concurrently \"npm run server\" \"cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplonco/es2015-nodejs-exercices/issues"
+  },
+  "homepage": "https://github.com/simplonco/es2015-nodejs-exercices#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
